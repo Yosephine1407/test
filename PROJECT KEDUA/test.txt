@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary text-center">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">RETAIL</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">SME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">CORPORATE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">COVID 19</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CAMPAIGNS</a>
+              </li>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ <div class="wrapper">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              class="col-md-6 h-100 d-flex flex-column justify-content-center mt-5">
+              <div class="title">
+                <h1 class="" style="width: 453px">Chase Your Dream with us</h1>
+              </div>
+              <div class="sub-header">
+                <p>
+                  The harder you work for something, the greater you’ll feel when
+                  you achieve it.
+                </p>
+              </div>
+              <div class="button-action">
+                <button class="btn" style="background-color: #ed017f">
+                  Apply Online
+                </button>
+                <button class="btn" style="background-color: #ed017f">
+                  Loan Calculator
+                </button>
+              </div>
+              <div class="btn-action-link d-flex gap-3 mt-5">
+                <div class="call d-flex gap-2">
+                  <div class="call">
+                    <img src="./assets/call.png" alt="" />
+                  </div>
+                  <div class="number">
+                    <p>09689</p>
+                  </div>
+                </div>
+                <div class="logo">
+                  <img src="./assets/facebook.png" alt="fb" />
+                  <img src="./assets/youtube.png" alt="yt" />
+                  <img src="./assets/linkedin.png" alt="linkedin" />
+                  <img src="./assets/instagram.png" alt="ig" />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 position-raltive">
+              <div
+                class="bg-back position-raltive"
+                style="
+                  background-color: #ffeaf5;
+                  width: 100%;
+                  height: 500px;
+                  margin-top: 0px;
+                ">
+                <div class="img position-relative">
+                  <img src="./assets/Big.png" alt="" class="w-100" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+  
+    
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
